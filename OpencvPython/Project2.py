@@ -143,10 +143,10 @@ if biggest.size != 0:
 else:
     imgArray = ([img, imgThres], [img, img])
 
-stackImages = stackImages(0.5, imgArray)
+stackedImages = stackImages(0.5, imgArray)
 
 screenResize(img)
-cv2.imshow('Resized Window', stackImages)
+cv2.imshow('Resized Window', stackedImages)
 
 cv2.waitKey(0)
 """
